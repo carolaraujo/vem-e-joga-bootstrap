@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Vem e Joga</title>
+</head>
+
+<body>
+  <!-- MENU NAVEGAÇÃO -->
+<div class="navegacao">
+  <nav class="navbar navbar-expand-lg navbar-dark"
+    style="background-color: #212225; display: flex; justify-content: center;">
+    <div class="logo">
+      <img src="imagens/logo.jpg" class="img-logo" alt="logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nós<span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Coletivos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Encontre seu Time</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fale Conosco</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <main>
+    <!-- SOBRE NÓS  -->
+    <section>
+      <h1>Sobre Nós</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="imagens/3 meninas.jpg" alt="">
+          </div>
+          <div class="col-sm">
+            <p class="text-center"><br><br><br>Nós acreditamos que o futebol feminino é sinônimo de resistência, somos
+              uma organização sem fins lucrativos onde trabalhamos na divulgação de times de futebol feminino amadores
+              na cidade de São Paulo. Acreditamos no poder libertador que o futebol tem nas mulheres e incentivamos
+              todas a começarem ou voltarem á jogar, escolha o seu coletivo e junte-se a nós para colocar as mulheres
+              nos seus devidos lugares, numa quadra de futebol !</p>
+          </div>
+    </section>
+    <!-- COLETIVOS EM DESTAQUE -->
+    <main>
+      <section class="destination--pab" id="destination">
+        <img src="imagens/PAB.jpg" alt="" class="destination--pab__img img-fluid">
+        <div class="destination--box text-center">
+          <h3 class="destination--title">Oficial Passa a Bola</h3>
+          <p class="destination__paragraph destination_paragraph--pab text-center">Projeto disponibiliza quadra grátis
+            para incentivar mulheres a jogarem futebol em SP<br>Idealizado por Luana Maluf, influenciadora digital
+            ligada ao futebol, o projeto conta com o patrocínio da Nike e o apoio da Playball, rede de locações de
+            quadras com 5 unidades na Grande São Paulo.</p>
+          <a class="btn bg-warning text-white" href="https://www.instagram.com/oficialpassaabola/" role="button"
+            target="blank">Saiba Mais</a>
+        </div>
+      </section>
+      <section class="destination--dubar" id="destination">
+        <img src="imagens/DUBAR.jpg" alt="" class="destination--dubar__img img-fluid">
+        <div class="destination--box text-center">
+          <h3 class="destination--title">Dubar Futebol Feminino</h3>
+          <p class="destination__paragraph destination_paragraph--dubar text-center">Futebol Feminino na ZN
+            👠⚽️🏆
+            Quadra ao lado do Metro Tucuruvi
+            Treino: todo Domingo das 12:00 às 14:00
+            Mensal: R$ 45,00 / Avulso: 20,00
+            Sem fins lucrativos!</p>
+          <a class="btn bg-warning text-white" href="https://www.instagram.com/dubar.ff/" role="button"
+            target="blank">Saiba Mais</a>
+        </div>
+      </section>
+      <section class="destination--turvas" id="destination">
+        <img src="imagens/turvas.jpeg" alt="" class="destination--turvas__img img-fluid">
+        <div class="destination--box text-center">
+          <h3 class="destination--title">Turvas Futebol Feminino</h3>
+          <p class="destination__paragraph destination_paragraph--turvas text-center">Grupo de mulheres mães, filhas e
+            esposas que se organizam todos os sábados na Vila Maria para jogar bola e fazer amizades que só o futebol
+            feminino pode proporcionar. Mesmo com alguns problemas desde 2015 o time em 2018 ressurgiu e ficou ainda
+            mais forte e desde então os encontros têm sido frequentes, quer conhecer a Turvas ? Só clicar no saiba mais
+            e entrar em contato com elas </p>
+          <a class="btn bg-warning text-white" href="https://www.instagram.com/turvas_fc/" role="button"
+            target="blank">Saiba Mais</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h4>Fale Conosco</h4>
+        <p>Aqui você pode cadastrar seu time de futebol amador ou nos mandar qualquer dúvida, no caso do time não
+          esqueça
+          de nos mandar os dias de treinos e o link do Instagram para contato</p>
+        <form method="get" action="envio_dados.php">
+          <input type="text" name="nome" placeholder="digite seu Nome aqui">
+          <input type="e-mail" name="email" placeholder="Digite seu e-mail"><br>
+          <input type="text" name="message" placeholder="Digite sua mensagem aqui">
+          <input type="submit" name="enviar" value="Enviar">
+        </form>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
