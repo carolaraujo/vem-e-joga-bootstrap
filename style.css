@@ -124,7 +124,7 @@ p {
     margin: 0 0 10px 100px;
 }
 
-.cards-segunda {
+.cards-segunda, .cards-terça, .cards-quarta, .cards-quinta, .cards-sexta, .cards-sabado, .cards-domingo {
     display: flex;
     justify-content: center;
 }
