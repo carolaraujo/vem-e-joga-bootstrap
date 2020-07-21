@@ -98,7 +98,7 @@ p {
     font-weight: 600;
 }
 
-..destination--pab, .destination--dubar, .destination--turvas {
+.destination--pab, .destination--dubar, .destination--turvas {
     background-color:#212225;
     color:#212225;
     margin-bottom: 50px;
@@ -113,6 +113,20 @@ p {
     padding: 8px;
     background: #fff;
 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 0 10px 100px;
+}
+
+.cards-segunda {
+    display: flex;
+    justify-content: center;
 }
 
  @media screen and (min-width:836px){
