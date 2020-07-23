@@ -100,7 +100,6 @@ p {
 .destination--pab, .destination--dubar, .destination--turvas {
     background-color:#212225;
     color:#212225;
-    margin-bottom: 50px;
 }
 
 .btn-custom {
@@ -126,6 +125,7 @@ p {
 .cards-segunda, .cards-terça, .cards-quarta, .cards-quinta, .cards-sexta, .cards-sabado, .cards-domingo {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .form-footer {
@@ -133,6 +133,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.segunda-feira {
+    flex-wrap: wrap;
+
 }
 
  @media screen and (min-width:836px){

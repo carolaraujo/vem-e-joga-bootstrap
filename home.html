@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #212225; display: flex; justify-content: center;">
       <div class="logo">
-        <img src="imagens/logo.jpg" class="img-logo" alt="logo">
+        <a href="home.html"><img src="imagens/logo.jpg" class="img-logo" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
             <a class="nav-link" href="#coletivos">Coletivos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="segundaPagina.html">Encontre seu Time</a>
+            <a class="nav-link" href="segundaTela.html">Encontre seu Time</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#faleconosco">Fale Conosco</a>
@@ -45,7 +45,7 @@
   <main>
     <!-- SOBRE NÓS  -->
     <section>
-      <h1 id="sbnos">Sobre Nós</h1>
+      <h1 id="sbnos">Sobre Nós</h1><br>
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -58,10 +58,10 @@
               todas a começarem ou voltarem á jogar, escolha o seu coletivo e junte-se a nós para colocar as mulheres
               nos seus devidos lugares, numa quadra de futebol !</p>
           </div>
-    </section>
+    </section><br>
     <!-- COLETIVOS EM DESTAQUE -->
     <main>
-      <h2 id="coletivos">Coletivos em Destaque</h2>
+      <h2 id="coletivos">Coletivos em Destaque</h2><br>
       <section class="destination--pab" id="destination">
         <img src="imagens/PAB.jpg" alt="" class="destination--pab__img img-fluid">
         <div class="destination--box text-center">
@@ -70,7 +70,7 @@
             para incentivar mulheres a jogarem futebol em SP<br>Idealizado por Luana Maluf, influenciadora digital
             ligada ao futebol, o projeto conta com o patrocínio da Nike e o apoio da Playball, rede de locações de
             quadras com 5 unidades na Grande São Paulo.</p>
-            <a href="https://www.instagram.com/oficialpassaabola/" target="blank"><i class="fab fa-instagram fa-4x"></i><br><p class="text-white text-decoration:none">Instagram Oficial Passa a Bola</p></a>
+            <a href="https://www.instagram.com/oficialpassaabola/" target="blank"><i class="fab fa-instagram fa-4x"></i><br><p class="text-white text-decoration:none">Instagram Oficial Passa a Bola</p></a><br>
         </div>
       </section>
       <section class="destination--dubar" id="destination">
@@ -88,7 +88,7 @@
       </section>
       <section class="destination--turvas" id="destination">
         <img src="imagens/turvas.jpeg" alt="" class="destination--turvas__img img-fluid">
-        <div class="destination--box text-center">
+        <div class="destination--box text-center"><br>
           <h3 class="destination--title">Turvas Futebol Feminino</h3>
           <p class="destination__paragraph destination_paragraph--turvas text-center">Grupo de mulheres mães, filhas e
             esposas que se organizam todos os sábados na Vila Maria para jogar bola e fazer amizades que só o futebol
@@ -99,7 +99,7 @@
         </div>
       </section>
     </main>
-    <footer class="form-footer">
+    <footer class="form-footer" id="faleconosco">
       <h4>Fale Conosco</h4>
       <form>
         <div class="form-group row">
@@ -111,7 +111,7 @@
         <div class="form-group row">
           <label for="inputPassword3" class="col-sm-2 col-form-label text-white"></label>
           <div class="col-sm-10">
-            <input type="passwor" class="form-control" id="inputPassword3" placeholder="Digite sua mensagem aqui !">
+            <input type="passwor" class="form-control" id="inputPassword3" placeholder="Sua mensagem aqui !">
           </div>
         </div>
         <fieldset class="form-group">
@@ -138,6 +138,7 @@
           </div>
         </div>
       </form>
+      <span class="text-white">Desenvolvido por <a href="https://www.linkedin.com/in/carolaraujodev/" target="blank" class="text-white">Caroline Araujo</a> para o projeto final do Bootcamp de Desenvolvimento Front-End na <a href="https://reprograma.com.br/" target="blank" class="text-white">{reprograma}</a> em 2020</span>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
